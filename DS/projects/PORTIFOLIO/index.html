@@ -5,21 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header class ="header" >
-       <a href="#" class= "logo" >Portfolio</a> 
-
-
-       <nav class = "navbar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-       </nav>
-
+    <header class="header">
+        <a href="#" class="logo">Your Name</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
     </header>
-    
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span class="text"></span></h1>
+            <h3>Software Engineer</h3>
+            <p>Specialized in Web Development and Machine Learning</p>
+            <div class="home-sci">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-codepen"></i></a>
+            </div>
+            <a href="#" class="btn-box">Download Resume</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/profile.jpg" alt="Profile Picture">
+            <div class="about-text">
+                <p>Hi, I'm a software engineer with a passion for developing innovative programs. I have a deep interest in AI and machine learning, and I am always eager to learn new technologies and skills. In my free time, I enjoy hiking, reading, and coding for fun.</p>
+                <p><strong>Goals:</strong> To contribute to open-source projects and improve my skills in AI.</p>
+                <p><strong>Hobbies:</strong> Hiking, Reading, Coding</p>
+                <a href="#" class="btn-box">Resume</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2>Recent Projects</h2>
+        <div class="projects-content">
+            <!-- Projects will be loaded here using GitHub API -->
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-content">
+            <div class="skill-box">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-box">
+                <h3>Python</h3>
+            </div>
+            <div class="skill-box">
+                <h3>HTML & CSS</h3>
+            </div>
+            <div class="skill-box">
+                <h3>React</h3>
+            </div>
+            <div class="skill-box">
+                <h3>Node.js</h3>
+            </div>
+            <div class="skill-box">
+                <h3>Tableu</h3>
+            </div>
+            <div class="skill-box">
+                <h3>powerbi</h3>
+            </div>
+            <div class="skill-box">
+                <h3>sql</h3>
+            </div>
+            <div class="skill-box">
+                <h3>excel</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Recent Projects</h2>
+        <div class="projects-content">
+            <!-- Projects will be loaded here using GitHub API -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved. | Open Source | Acknowledgements</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
 </body>
 </html>

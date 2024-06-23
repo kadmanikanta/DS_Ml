@@ -1,29 +1,159 @@
-*
-
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-body
-{
-    background-color: #ededed;
+body {
+    color: #ededed;
+    background-color: #081b29;
 }
-.header
-{
-    
+
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding     : 20px 10% ;
-    height: 100vh;
-    background: transparent ;
+    padding: 20px 10%;
+    background: #081b29;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(images/background.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+.home-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.home h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.home h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.home p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.home-sci a {
+    font-size: 24px;
+    color: #0ef;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.home-sci a:hover {
+    color: #fff;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.btn-box:hover {
+    background: #fff;
+    color: #081b29;
+}
+
+.about, .skills, .projects {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.about img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.about-text {
+    margin-top: 20px;
+}
+
+.about p {
+    margin: 10px 0;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    background: #0ef;
+    color: #081b29;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-box:hover {
+    transform: translateY(-10px);
+}
+
+.projects-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #081b29;
+    color: #fff;
 }
